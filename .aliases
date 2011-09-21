@@ -28,10 +28,13 @@ alias server="open http://localhost:8080/ && python -m SimpleHTTPServer 8080"
 # Trim new lines and copy to clipboard
 alias c="tr -d '\n' | pbcopy"
 
+# Replace git with hub (http://defunkt.io/hub/)
+alias git="hub"
+
 # Shortcuts
 alias d="cd ~/Dropbox"
 alias b="cd ~/build"
-alias g="git"
+alias g="hub"
 alias v="vim"
 alias m="mate ."
 
